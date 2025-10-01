@@ -1,0 +1,15 @@
+#home {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+#home .btn {
+  display: block;
+  max-width: 5rem;
+  text-align: center;
+}
+
+#home .btn:hover {
+  opacity: 1;
+}

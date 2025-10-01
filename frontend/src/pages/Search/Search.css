@@ -1,0 +1,20 @@
+#search {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+#search .btn {
+  display: block;
+  max-width: 5rem;
+  text-align: center;
+}
+
+#search .btn:hover {
+  opacity: 1;
+}
+
+#search-term {
+  color: #0094f6;
+  font-weight: bold;
+}

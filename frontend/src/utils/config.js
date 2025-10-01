@@ -1,0 +1,40 @@
+// Global Constants
+export const api = 'http://localhost:5000/api'
+export const uploads = 'http://localhost:5000/uploads'
+export const noUserPhoto = '/images/no-user-photo.png'
+
+// Set Request Config by Type
+export const requestConfig = (method, data, token = null, image = null) => {
+  let config
+
+  if (image) {
+    // Config for Form-Data Request
+    config = {
+      method,
+      body: data,
+      headers: {},
+    }
+  } else if (method === 'DELETE' || data === null) {
+    // Config for DELETE or No Data Requests
+    config = {
+      method,
+      headers: {},
+    }
+  } else {
+    // Config for JSON Request
+    config = {
+      method,
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }
+  }
+
+  // Set Token on Config
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`
+  }
+
+  return config
+}

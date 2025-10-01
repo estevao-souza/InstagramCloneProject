@@ -1,0 +1,17 @@
+.like {
+  display: flex;
+  align-items: center;
+}
+
+#home .like {
+  border: none;
+}
+
+.like svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.like p {
+  margin-left: 1rem;
+}

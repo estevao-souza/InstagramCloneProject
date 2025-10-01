@@ -1,0 +1,49 @@
+#postDetails {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+#comments {
+  text-align: left;
+}
+
+#comments h3 {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #363636;
+}
+
+#comments-scrollable {
+  max-height: 18rem;
+  overflow-y: auto;
+}
+
+#comment-form {
+  margin: 1.5rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid #363636;
+}
+
+.comment {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.comment a {
+  font-weight: bold;
+}
+
+.user-photo img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}

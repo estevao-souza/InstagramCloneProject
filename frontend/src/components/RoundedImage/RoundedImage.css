@@ -1,0 +1,12 @@
+.rounded-image {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.rounded-image.small {
+  width: 6rem;
+  height: 6rem;
+}
