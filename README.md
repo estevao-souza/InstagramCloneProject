@@ -17,6 +17,7 @@ This project was developed to demonstrate my skills in building a full-stack soc
 - Delete user account.
 - View the home feed with all users' posts.
 - Search post.
+- User profile displaying all of a user's posts.
 - Create, Update and Delete posts.
 - View post details, including comments and likes.
 - Add and delete comments on posts.
