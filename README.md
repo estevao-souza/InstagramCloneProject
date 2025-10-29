@@ -1,4 +1,4 @@
-### Instagram Clone
+#### Instagram Clone
 
 ### About this project
 Instagram Clone is an Instagram-like application created to demonstrate my skills in developing a full-stack web application using the MERN stack. It implements a social networking system with several features, such as:
