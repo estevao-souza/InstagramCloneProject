@@ -5,7 +5,7 @@ Instagram Clone is an Instagram-like application created to demonstrate my skill
 - Authentication system: handles user authentication and authorization.
 - Middlewares: manage specific criteria and logic for each back-end route, such as validation, authentication and image upload.
 - Redux: used with services and slices to properly manage and handle API call states.
-- MongoDB: used to store all user and post data in a cloud-based NoSQL database.
+- MongoDB Atlas: used to store all user and post data in a cloud-based NoSQL database.
 - Local storage: used to store all profile and post images.
 
 ### Observations
@@ -13,9 +13,14 @@ This project was developed to demonstrate my skills in building a full-stack soc
 
 ### Functionalities
 - Sign in, sign up and sign out user.
-
-- Update user profile data, such as: User name and profile photo.
+- Update user profile information: username, bio, password and profile photo.
+- Delete user account.
+- View the home feed with all users' posts.
+- Search post.
+- Create, Update and Delete posts.
+- View post details, including comments and likes.
+- Add and delete comments on posts.
 
 ### Getting Started
-To run this application in development mode, you'll need to create an account on OpenWeatherMap and obtain an API Key. Once you obtain this key, you simply need to paste it into the project's "API_KEY" constant.
+To run this application in development mode, first create an account on MongoDB Atlas and set up a database named instagram_database. Then, add your MongoDB username, password and JWT secret to the back-end’s .env file.
 
